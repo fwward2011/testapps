@@ -1,0 +1,10 @@
+<div class="container">
+	<h2 style="text-align:center;font-weight:700;color:#303260;">Sam's PLUS Members</h2>
+
+	<ul>
+		<li *ngFor="#item of teammembers; #i=index">
+		  <a [routerLink]="['MemberDetails', {id: i}]"> {{ item }} </a>
+		</li>
+	</ul>
+</div>
+

@@ -1,0 +1,22 @@
+<div class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="navbar-brand">Sam's PLUS Rewards</div>
+    </div>
+    <div id="collapse_menu" class="navbar-collapse collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav navbar-right">
+		<li><a [routerLink]="['Home']" onclick="$('#collapse_menu').removeClass('in');">Home</a></li>
+		<li><a [routerLink]="['Join']" onclick="$('#collapse_menu').removeClass('in');">Join</a></li>
+        <li><a [routerLink]="['Members']" onclick="$('#collapse_menu').removeClass('in');">Members</a></li>
+        <li><a [routerLink]="['Experience']" onclick="$('#collapse_menu').removeClass('in');">Experience</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
