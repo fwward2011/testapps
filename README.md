@@ -1,4 +1,5 @@
-# angular2-routing
-Routing in Angular 2 apps.
+# angular2 test app 001
 
-For more details - http://tphangout.com/?p=256
+Angular2 app with routing, directives, services
+
+For more details - fwward2011@gmail.com
